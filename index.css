@@ -1,0 +1,452 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+}
+.header{
+	width: 100%;
+	height: 45px;
+}
+.header .logo{
+	float: left;
+	margin-left: 160px;
+}
+.header .logo a{
+	display: block;
+	width: 170px;
+	height: 45px;
+	background: url(img/logo.png) no-repeat 0 0;
+}
+.header .register{
+	float: right;
+	line-height: 45px;
+	margin-right: 140px;
+}
+.header .register li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+.header .register li:hover{
+	opacity: 1;
+}
+.content{
+	width: 100%;
+	height: 460px;
+	
+}
+.content .content_in{
+	width: 1200px;
+	height: 100%;
+	
+	margin: 0 auto;
+}
+.content .content_in .content_left{
+	float: left;
+	width: 800px;
+	height: 100%;
+	
+}
+.content .content_in .content_left .content_toolbar{
+	width: 100%;
+	height: 40px;
+	
+}
+.content_toolbar span{
+	display: inline-block;
+	height: 100%;
+	width: 122px;
+	border: 1px solid #fff;
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #fff;
+	opacity: 0.5;
+}
+.content_toolbar span:hover{
+	opacity: 1;
+}
+.content_toolbar span i{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: url(img/icon_sprite.png) no-repeat ;
+	margin-right: 5px;
+}
+.content_toolbar span i:nth-child(1){
+	background-position: -60px 5px;
+}
+.content_toolbar span i:nth-child(2){
+	background-position: -60px 5px;
+}
+.content_toolbar span i:nth-child(3){
+	background-position: -60px 5px;
+}
+.content_toolbar span i:nth-child(4){
+	background-position: -60px 5px;
+}
+.content_toolbar span i:nth-child(5){
+	background-position: -60px 5px;
+}
+.content_left .content_list{
+	width: 100%;
+	height: 420px;
+	overflow: hidden;
+}
+.content_list li{
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	/* opacity: 0.7; */
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-sizing: border-box;
+	user-select: none;
+}
+.content_list li div{
+	float: left;
+	color: rgba(255,255,255,0.5);
+	line-height: 50px;
+	/* opacity: 0.5; */
+}
+
+.content_list .list_check{
+	width: 50px;
+	height: 100%;
+	text-align: center;
+	
+}
+.content_list .list_check i{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #fff;
+	text-align: center;
+	opacity: 0.5;
+}
+.content_list .list_checked i{
+	background: url(img/icon_sprite.png) no-repeat -20px -181px;
+	opacity: 1;
+}
+.content_list .list_number{
+	width: 20px;
+	height: 100%;
+}
+.content_list .list_number2{
+	color: transparent !important;
+	background: url(img/wave.gif) no-repeat 0 center;
+}
+.content_list .list_name{
+	width: 50%;
+	height: 100%;
+}
+.list_name .list_menu{
+	margin-top: 7px;
+	float: right;
+	margin-right: 20px;
+	display: none;
+}
+.list_name .list_menu a{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	margin-left: 10px;
+	background: url(img/icon_list_menu.png) no-repeat 0 0;
+	opacity: 0.5;
+}
+.list_name .list_menu a:hover{
+	opacity: 1;
+}
+.list_name .list_menu a:nth-child(1){
+	background-position: -120px 0;
+}
+.list_name .list_menu a:nth-child(2){
+	background-position: -120px -80px;
+}
+.list_name .list_menu a:nth-child(3){
+	background-position: -120px -120px;
+}
+.list_name .list_menu a:nth-child(4){
+	background-position: -120px -40px;
+}
+.list_menu .list_menu_play2{
+	background-position: -120px -200px !important;
+}
+.content_list .list_singer{
+	width: 20%;
+	height: 100%;
+}
+.content_list .list_time a{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	background: url(img/icon_list_menu.png) no-repeat -120px -160px;
+	float: left;
+	margin-top: 7px;
+	display: none;
+	opacity: 0.5;
+}
+.content_list .list_time a:hover{
+	opacity: 1;
+}
+.content_in .content_right{
+	float: right;
+	width: 400px;
+	height: 100%;
+	user-select: none;
+}
+.content_right .song_info{
+	text-align: center;
+	color: rgba(255,255,255,0.5);
+	line-height: 30px;
+}
+.song_info div a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.5);
+}
+.song_info div a:hover{
+	color: rgba(255,255,255,1);
+}
+.song_info .song_info_pic{
+	display: inline-block;
+	background: url(img/album_cover_player.png) no-repeat 0 0;
+	width: 201px;
+	height: 180px;
+	text-align: left;
+	
+}
+.song_info .song_info_pic img{
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+}
+.content_right .song_lyric{
+	text-align: center;
+	margin-top: 30px;
+}
+.content_right .song_lyric li{
+	list-style: none;
+	
+	font-weight: bold;
+	color: rgba(255,255,255,0.5);
+	margin-bottom: 10px;
+}
+.content_right .song_lyric .cur{
+	color: #31c27c;
+}
+.footer{
+	width: 100%;
+	height: 80px;
+	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.footer .footer_in{
+	width: 1200px;
+	height: 100%;
+	user-select: none;
+	margin: 0 auto;
+}
+.footer_in a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	background: url(img/player.png) no-repeat 0 0;
+	margin-right: 20px;
+}
+.footer_in .music_pre{
+	width: 27px;
+	height: 24px;
+	background-position: 0 -28px;
+}
+.footer_in .music_play{
+	width: 27px;
+	height: 27px;
+	background-position: 0 -1px;
+	position: relative;
+	top: 3px;
+}
+.footer_in .music_play1{
+	background-position: -28px 0;
+}
+.footer_in .music_next{
+	width: 27px;
+	height: 24px;
+	background-position: 0 -50px;
+}
+.footer_in .music_progress_info{
+	display: inline-block;
+	width: 645px;
+	height: 40px;
+	
+	position: relative;
+	top: 10px;
+}
+.music_progress_info .music_progress_top{
+	width: 100%;
+	height: 30px;
+	
+	color: white;
+	line-height: 30px;
+}
+.music_progress_top .music_progress_name{
+	float: left;
+	opacity: 0.5;
+}
+.music_progress_top .music_progress_name:hover{
+	opacity: 1;
+}
+.music_progress_top .music_progress_time{
+	float: right;
+	opacity: 0.5;
+}
+.music_progress_info .music_progress_bar{
+	width: 100%;
+	height: 3px;
+	background: rgba(255,255,255,0.5);
+	margin-top: 5px;
+	position: relative;
+}
+.music_progress_bar .music_progress_line{
+	width: 0px;
+	height: 100%;
+	background: #fff;
+}
+.music_progress_line .music_progress_dot{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	top: -5px;
+	left: 0px;
+}
+.footer_in .music_mode{
+	width: 27px;
+	height: 24px;
+	background-position: 0 -72px;
+}
+.footer_in .music_mode1{
+	background-position: 0 -205px;
+}
+.footer_in .music_mode2{
+	background-position: 0 -232px;
+}
+.footer_in .music_mode3{
+	background-position: 0 -258px;
+}
+.footer_in .music_fav{
+	width: 27px;
+	height: 24px;
+	background-position: 0 -94px;
+}
+.footer_in .music_fav1{
+	background-position: -30px -94px;
+}
+.footer_in .music_down{
+	width: 27px;
+	height: 24px;
+	background-position: 0 -118px;
+}
+.footer_in .music_comment{
+	width: 27px;
+	height: 24px;
+	background-position: 0 -399px;
+}
+.footer_in .music_only{
+	width: 74px;
+	height: 26px;
+	background-position: 0 -281px;
+}
+.footer_in .music_only1{
+	background-position: 0 -311px;
+}
+.footer_in .music_voice_info{
+	display: inline-block;
+	width: 94px;
+	height: 40px;
+	position: relative;
+	top: 10px;
+}
+.music_voice_info .music_voice_icon{
+	width: 26px;
+	height: 21px;
+	background-position: 0 -142px;
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+}
+.music_voice_info .music_voice_icon1{
+	background-position: 0 -180px;
+}
+.music_voice_info .music_voice_bar{
+	width: 60px;
+	height: 3px;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	right: 0;
+	bottom: 22px;
+}
+.music_voice_bar .music_voice_line{
+	width: 60px;
+	height: 100%;
+	background: #FFFFFF;
+		
+}
+.music_voice_line .music_voice_dot{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	position: relative;
+	top: -5px;
+	left: 60px;
+}
+.mask_bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* background: url(https://y.gtimg.cn/music/photo_new/T002R300x300M000004eCgl11lfiTr.jpg?max_age=2592000) no-repeat 0 0; */
+	background-size: cover;
+	z-index: -2;
+	filter: blur(100px);/*设置模糊*/
+}
+.mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: rgba(0,0,0,0.35);
+}
+._mCS_1 .mCSB_scrollTools .mCSB_dragger_bar{
+	width: 8px;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
